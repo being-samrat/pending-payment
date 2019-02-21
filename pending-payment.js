@@ -14,7 +14,7 @@ $(document).ready(function() {
 			opacity = (opacity < 0) ? 0 : opacity;
 			opacity = (opacity > 1) ? 1 : opacity;
 		if(opacity >= 0 && opacity <= 1) {
-			document.getElementsByTagName("BODY")[0].style.opacity = opacity; // this will fae the body of website day by day
+			document.getElementsByTagName("BODY")[0].style.opacity = opacity; // this will fade the body of website day by day
 		}		
 	}
 });	
